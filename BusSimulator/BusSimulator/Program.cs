@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Collections.Generic;
 using IronWebScraper;
@@ -191,7 +191,7 @@ namespace Bussen
 
             return job.Job;
         }
-    
+
         public static int IncomeRandomizer(int age, string job)
         {
             double income = 0;
