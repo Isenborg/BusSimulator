@@ -10,6 +10,30 @@ namespace Bussen
     {
         static void Main(string[] args)
         {
+            Buss.run();
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    class Buss
+    {
+        public static void run()
+        {
             BusManaging.StartupMessage();
             Console.ReadKey();
             Console.Clear();
@@ -61,24 +85,6 @@ namespace Bussen
             } while (true);
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     class BusManaging
     {
